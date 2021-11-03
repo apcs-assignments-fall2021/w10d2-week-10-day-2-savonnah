@@ -15,6 +15,8 @@ public class Client {
         // [6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
 
         // NumberSequence Tests
+        System.out.println("");
+        System.out.println("NumberSequence Tests");
         NumberSequence ns1 = new NumberSequence(5, 10);
         System.out.println(ns1);
         // [5, 6, 7, 8, 9, 10, 11, 12, 13, 14]

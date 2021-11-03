@@ -21,11 +21,11 @@ public class NumberArray {
 
     // Adds up all the values in our array
     public int sum() {
-        int x = 0;
+        int total = 0;
         for (int i = 0; i < this.arr.length; i++) {
-            x += this.arr[i];
+            total += this.arr[i];
         }
-        return x;
+        return total;
     }
 
     // Increments all values in the array
